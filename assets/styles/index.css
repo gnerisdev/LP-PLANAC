@@ -119,7 +119,7 @@ body {
 
   .section-hero__background {
     position: absolute;
-    background: #c5c5c51f;
+    /* background: #c5c5c51f; */
     height: 100vh;
     width: 100%;
     inset: 0;
@@ -131,6 +131,23 @@ body {
 .section-hero__logo {
   height: 48px;
 }
+@media (max-width: 576px) {
+  .section-hero__logo {
+    display: none;
+  }
+}
+
+.section-hero__logo--mobi {
+  display: none;
+}
+@media (max-width: 576px) {
+  .section-hero__logo--mobi {
+    display: initial;
+    position: absolute;
+    top: 24px;
+    left: 12px;
+  }
+}
 
 .section-hero__decoration {
   color: #005d9c;
@@ -140,7 +157,7 @@ body {
   .section-hero__title {
     font-size: 1.5rem;
   }
-  
+
   .section-hero__decoration {
     color: #000746;
   }
