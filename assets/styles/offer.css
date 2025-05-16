@@ -14,7 +14,7 @@ body {
   height: 100vh;
   background-size: cover;
   background-position: center top;
-  background-repeat: no-repeat;  
+  background-repeat: no-repeat;
 }
 
 .section-hero__content {
@@ -28,7 +28,7 @@ body {
   padding: 0 20px;
 }
 @media (max-width: 576px) {
-.section-hero__content {
+  .section-hero__content {
     width: 100%;
   }
 }
@@ -39,7 +39,7 @@ body {
   margin-bottom: 12px;
 }
 @media (max-width: 576px) {
-.section-hero__logo {
+  .section-hero__logo {
     height: 38px;
     margin-bottom: 0;
   }
@@ -57,7 +57,7 @@ body {
 }
 
 .section-hero__decoration {
-  color: #005D9C;
+  color: #005d9c;
   font-weight: bold;
 }
 
@@ -72,11 +72,12 @@ body {
 }
 
 .section-hero__button {
-  background: transparent linear-gradient(270deg, #005D9C 0%, #000645 100%) 0% 0% no-repeat padding-box;
+  background: transparent linear-gradient(270deg, #005d9c 0%, #000645 100%) 0%
+    0% no-repeat padding-box;
   border-radius: 44px;
   padding: 12px 24px;
   width: fit-content;
-  color: #FFFFFF;
+  color: #ffffff;
   margin: 16px auto 0;
   display: flex;
   align-items: center;
@@ -96,4 +97,22 @@ body {
 
 .section-hero__button .icon svg {
   stroke: aqua;
+}
+
+/* Button Whatsapp */
+.button-whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366;
+  color: white;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
 }
